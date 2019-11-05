@@ -1,14 +1,18 @@
 {
-  "posts": [
-    { "id": 11, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+        id: res.data.data[i].email,
+        timestamp: +Mock.Random.date('T'),
+        author: res.data.data[i].email,
+        reviewer: res.data.data[i].email,
+        title: res.data.data[i].email,
+        content_short: res.data.data[i].email,
+        content: baseContent,
+        forecast: res.data.data[i].email,
+        importance: '1',
+        'type|1': ['CN', 'US', 'JP', 'EU'],
+        'status|1': ['published', 'draft', 'deleted'],
+        display_time: res.data.data[i].email,
+        comment_disabled: true,
+        pageviews: res.data.data[i].email,
+        image_uri,
+        platforms: ['a-platform']
+      }
