@@ -1,6 +1,25 @@
+
+This code will render a **flowchart** when viewed on GitHub.
+
+### How Mermaid Works in GitHub:
+- When GitHub detects a block of code labeled with `mermaid` (as shown above), it uses the Mermaid JavaScript library to convert the code into an interactive diagram or flowchart.
+- This is dynamic and rendered in the **browser** as a visual representation of the text-based structure you defined in your Mermaid code.
+- GitHub will automatically generate the diagram when you push the Markdown file to your repository and view it through GitHub's web interface.
+
+### Supported Diagrams in Mermaid:
+Mermaid supports a variety of diagram types, including:
+- **Flowcharts** (like the example above)
+- **Sequence Diagrams**
+- **Gantt Charts**
+- **Class Diagrams**
+- **State Diagrams**
+- **Pie Charts**
+- **Entity-Relationship Diagrams (ERD)**
+
+Here’s an example for a **sequence diagram**:
+
+```markdown
 ```mermaid
-graph LR
-    A[Start] --> B[Step 1]
-    B --> C[Step 2]
-    C --> D[Step 3]
-    D --> E[End]
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Hi Alice, I'm good, thanks!
